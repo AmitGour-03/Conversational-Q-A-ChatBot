@@ -11,7 +11,7 @@ load_dotenv()
 ## Till here, just checking that everything is working fine.
 
 ## LangSmith Tracking
-os.environ['LANGCHAIN_API_KEY']=os.getenv("LANGCHAIN_API_KEY")
+os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
 os.environ["LANGCHAIN_TRACING_V2"]="true"
 os.environ["LANGCHAIN_PROJECT"]="Q&A Chatbot With OPENAI"
 
